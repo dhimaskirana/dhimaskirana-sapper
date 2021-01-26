@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<!-- From: https://schema.org/Person#eg-1 -->
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Person",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Yogyakarta",
+			"addressRegion": "Indonesia",
+			"postalCode": "55792",
+			"streetAddress": "Perum GMA Cepokosari A3, Sitimulyo, Piyungan, Bantul"
+		},
+		"email": "mailto:me@dhimaskirana.com",
+		"jobTitle": "Developer",
+		"name": "Dhimas Kirana",
+		"telephone": "+62857-4296-0280",
+		"url": "https://www.dhimaskirana.com/"
+	}
+	</script>
+
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Primary Meta Tags -->
+	<meta name="title" content="Dhimas Kirana - WordPress Developer - Presentation Designer">
+	<meta name="description"
+		content="Hello, my name is Dhimas Kirana. I'm WordPress Developer and Presentation Designer from Yogyakarta, Indonesia. I have been working as a Presentation Designer since 2018. I'm working on a business presentation design using Microsoft PowerPoint. Before becoming a Presentation Designer, I also had design experience in creating WordPress templates. I'm also working freelance as a WordPress Developer until now.">
+	<meta name="keywords" content="WordPress Developer, Presentation Designer, Yogyakarta, PowerPoint">
+	<meta name="author" content="Dhimas Kirana" />
+	<meta image="https://www.dhimaskirana.com/upload/16836292_10202798933850535_6370446869798618301_o.jpg">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.dhimaskirana.com/new.html">
+	<meta property="og:title" content="Dhimas Kirana - WordPress Developer - Presentation Designer">
+	<meta property="og:description"
+		content="Hello, my name is Dhimas Kirana. I'm WordPress Developer and Presentation Designer from Yogyakarta, Indonesia. I have been working as a Presentation Designer since 2018. I'm working on a business presentation design using Microsoft PowerPoint. Before becoming a Presentation Designer, I also had design experience in creating WordPress templates. I'm also working freelance as a WordPress Developer until now.">
+	<meta property="og:image"
+		content="https://www.dhimaskirana.com/upload/16836292_10202798933850535_6370446869798618301_o.jpg">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.dhimaskirana.com/new.html">
+	<meta property="twitter:title" content="Dhimas Kirana - WordPress Developer - Presentation Designer">
+	<meta property="twitter:description"
+		content="Hello, my name is Dhimas Kirana. I'm WordPress Developer and Presentation Designer from Yogyakarta, Indonesia. I have been working as a Presentation Designer since 2018. I'm working on a business presentation design using Microsoft PowerPoint. Before becoming a Presentation Designer, I also had design experience in creating WordPress templates. I'm also working freelance as a WordPress Developer until now.">
+	<meta property="twitter:image"
+		content="https://www.dhimaskirana.com/upload/16836292_10202798933850535_6370446869798618301_o.jpg">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/icon/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/icon/manifest.json">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+		rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/hover/hover.min.css" rel="stylesheet">
+	<link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	%sapper.base%
+
+	<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+	%sapper.scripts%
+
+	<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+	%sapper.styles%
+
+	<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+	%sapper.head%
+
+</head>
+<!-- The application will be rendered inside this element,
+	 because `src/client.js` references it -->
+
+<body id="sapper">
+	%sapper.html%
+</body>
+
+</html>
