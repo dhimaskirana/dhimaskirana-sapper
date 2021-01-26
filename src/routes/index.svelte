@@ -29,7 +29,7 @@
 <div
 	id="hero"
 	class="home"
-	style="background: url('https://www.dhimaskirana.com/upload/16836292_10202798933850535_6370446869798618301_o.jpg') repeat scroll left center / cover;"
+	style="background: url('/uploads/dhimaskirana.jpg') repeat scroll left center / cover;"
 >
 	<div class="container">
 		<div class="hero-content">
