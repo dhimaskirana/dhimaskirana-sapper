@@ -113,6 +113,9 @@
 							target="_blank">my Linkedin Profile</a
 						>.
 					</p>
+					<p>
+						<a rel="prefetch" href="review">Review Post Page</a>
+					</p>
 				</div>
 			</div>
 
