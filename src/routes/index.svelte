@@ -5,7 +5,6 @@
 		strings: [
 			"Dhimas Kirana.",
 			"WordPress Developer.",
-			"also Presentation Designer.",
 			"from Yogyakarta, Indonesia.",
 		],
 		typeSpeed: 100,
@@ -20,8 +19,8 @@
 </script>
 
 <svelte:head>
-	<title>Dhimas Kirana - WordPress Developer - Presentation Designer</title
-	><script src="https://cdn.jsdelivr.net/npm/typed.js">
+	<title>Dhimas Kirana - WordPress Developer</title><script
+		src="https://cdn.jsdelivr.net/npm/typed.js">
 	</script></svelte:head
 >
 
@@ -34,7 +33,7 @@
 	<div class="container">
 		<div class="hero-content">
 			<h1>I'm <span class="typed" /></h1>
-			<p>WP dev/ PPTX design</p>
+			<p>WP DEV</p>
 
 			<!-- <ul class="list-unstyled list-social">
 					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -60,14 +59,12 @@
 						<hr />
 						<p>
 							Hello, my name is Dhimas Kirana. I'm WordPress
-							Developer and Presentation Designer from Yogyakarta,
-							Indonesia.
+							Developer from Yogyakarta, Indonesia.
 						</p>
 						<ul class="contact-details">
 							<li>
 								<span
-									>Blog:
-									<a
+									>Blog: <a
 										href="https://blog.dhimaskirana.com/"
 										target="_blank"
 										>https://blog.dhimaskirana.com/</a
@@ -76,11 +73,10 @@
 							</li>
 							<li>
 								<span
-									>My Work:
-									<a
-										href="https://www.behance.net/dhmskrn"
+									>Github: <a
+										href="https://github.com/dhimaskirana"
 										target="_blank"
-										>https://www.behance.net/dhmskrn</a
+										>https://github.com/dhimaskirana</a
 									></span
 								>
 							</li>
@@ -97,18 +93,14 @@
 					<h2 class="mb-30">MY EXPERIENCE</h2>
 					<hr />
 					<p>
-						I have been working as a Presentation Designer since
-						2018. I'm working on business presentation design using
-						Microsoft PowerPoint.
+						Hello, my name is Dhimas Kirana. I'm a WordPress
+						Developer from Yogyakarta, Indonesia. I have been
+						working as a Freelance WordPress Developer since 2018. I
+						love developing WordPress and doing customization on the
+						WordPress backend.
 					</p>
 					<p>
-						Before becoming a Presentation Designer, I also had
-						design experience in creating WordPress templates. I'm
-						also working freelance as WordPress Developer until now.
-					</p>
-					<p>
-						More about me, check
-						<a
+						More about me, check <a
 							href="https://www.linkedin.com/in/dhimaskirana"
 							target="_blank">my Linkedin Profile</a
 						>.
